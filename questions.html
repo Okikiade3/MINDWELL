@@ -4,55 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FREQUENTLY ASKED QUESTIONS (FAQs)</title>
+    
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+<header>
         <section id="header-section">
             <div id="header-div">
                 <div id="header-info">
-                    <h1>MINDWELL PSYCHOLOGICAL SERVICES</h1>
-                    <em>Promoting Mental Wellness. Supporting Growth. Empowering Lives.</em>
-                     
-                        
+                    <img class="header-logo" src="./images/c50d9959-5385-4d09-8d2e-7ce552024d18.jpg" alt="Mindwell logo">
+                    
+                    <div>
+                        <h1>MINDWELL PSYCHOLOGICAL & WELLNESS SERVICES</h1>
+                        <em>Promoting Mental Wellness. Supporting Growth. Empowering Lives.</em>
+                    </div>
                 </div>
 
                 <div id="nav-div">
-                    <nav>
-                       <ul id="nav-ul">
-                             <li onclick="hideSidebar( )"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                            <li id="li" ><a href="./home.html">Home</a></li> 
-                            <li id="li"><a href="./about.html">Who We Are</a></li>
-                            <li id="li"><a href="./services.html">Our Services</a></li>
-                            <li id="li"><a href="./team.html">Our Team</a></li>
-                            <li id="li"><a href="./clients.html">Clients we serve</a></li>
-                            <li id="li"><a href="./bookings.html">Appointment & Bookings</a></li>
-                            <li id="li" class="current"><a href="./questions.html">Frequently Asked Questions (FAQs)</a></li>
-                            <li id="li"><a href="./contact.html">Get in Touch</a></li>
- 
+                    <nav class="nav-bar">
+
+                        <!-- DESKTOP MENU -->
+                        <ul class="nav-links">
+                            <li ><a class="hideOnMobile" href="./home.html">Home</a></li>
+                            <li><a class="hideOnMobile" href="./about.html">Who We Are</a></li>
+                            <li><a class="hideOnMobile" href="./services.html">Our Services</a></li>
+                            <li><a class="hideOnMobile" href="./team.html">Our Team</a></li>
+                            <li><a class="hideOnMobile" href="./clients.html">Clients we serve</a></li>
+                            <li><a class="hideOnMobile" href="./bookings.html">Appointment & Bookings</a></li>
+                            <li class="current"><a class="hideOnMobile" href="./questions.html">FAQs</a></li>
+                            <li><a class="hideOnMobile" href="./contact.html">Get in Touch</a></li>
                         </ul>
 
-                         <ul>
-                             <li id="li"  ><a class="hideOnMobile" href="./home.html">Home</a></li> 
-                            <li id="li"><a class="hideOnMobile" href="./about.html">Who We Are</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./services.html">Our Services</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./team.html">Our Team</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./clients.html">Clients we serve</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./bookings.html">Appointment & Bookings</a></li>
-                            <li id="li" class="current"><a class="hideOnMobile" href="./questions.html">Frequently Asked Questions (FAQs)</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./contact.html">Get in Touch</a></li>
-                            <li onclick="showSidebar( )" class="menu-botton"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="60px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-                        </ul>
+                        <!-- MENU BUTTON -->
+                        <button class="menu-botton" onclick="showSidebar()" aria-label="Open Menu">
+                            ☰
+                        </button>
                     </nav>
+
+                    <!-- SIDEBAR MENU -->
+                     <ul id="nav-ul">
+                        <li onclick="hideSidebar()">✕</li>
+                        <li  ><a href="./home.html">Home</a></li>
+                        <li><a href="./about.html">Who We Are</a></li>
+                        <li><a href="./services.html">Our Services</a></li>
+                        <li><a href="./team.html">Our Team</a></li>
+                        <li><a href="./clients.html">Clients we serve</a></li>
+                        <li><a href="./bookings.html">Appointment & Bookings</a></li>
+                        <li class="current"><a href="./questions.html">FAQs</a></li>
+                        <li><a href="./contact.html">Get in Touch</a></li>
+                    </ul>
+
                 </div>
+
             </div>
         </section>
        
     </header>
+    
 
     <main>
         <!--FREQUENTLY ASKED QUESTIONS (FAQ)-->
-        <section id="faq-section">
+        <section id="container">
             <div id="faq-div">
                 <h1>Frequently Asked Questions (FAQs)</h1>
                 <h3>Do you offer services for children with autism?</h3>
@@ -68,9 +80,9 @@
                 <p>Yes. We collaborate with schools for assessments, interventions, and consultations.</p>
             </div>
         </section>
-    </main>
+    </main> <br><br><br><br>
 
- <footer>
+     <footer>
         <section id="footer-section">
             <div id="footer-div">
                 <!--OPTIONAL ADD-ONS (FOR LATER GROWTH)-->
@@ -85,10 +97,10 @@
                 </div>
 
                 <div id="footer-info">
-                    <p>Mindwell Psychological Services &copy; 2025. All rights reserved. Privacy Policy | Terms of Service</p>
+                    <p>MINDWELL PSYCHOLOGICAL & WELLNESS SERVICES &copy; 2026. All rights reserved. Privacy Policy | Terms of Service</p>
                     <ul id="footer-ul">
                         <li>Phone: 08183002172</li>
-                        <li>Email:mindwell@gmail.com</li>
+                        <li>Email:Mindwpsych@gmail.com</li>
                     </ul>
                 </div>
 
@@ -110,8 +122,13 @@
         </section>
     </footer>
 
-
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
 </html>
+
+
+
+
+
+

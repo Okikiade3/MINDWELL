@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MINDWELL PSYCHOLOGICAL SERVICES</title>
+    <title>HOME</title>
     
      <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -12,38 +12,50 @@
         <section id="header-section">
             <div id="header-div">
                 <div id="header-info">
-                    <h1>MINDWELL PSYCHOLOGICAL SERVICES</h1>
-                    <em>Promoting Mental Wellness. Supporting Growth. Empowering Lives.</em>
-                     
+                    <img class="header-logo" src="./images/c50d9959-5385-4d09-8d2e-7ce552024d18.jpg" alt="Mindwell logo">
+                    
+                    <div>
+                        <h1>MINDWELL PSYCHOLOGICAL & WELLNESS SERVICES</h1>
+                        <em>Promoting Mental Wellness. Supporting Growth. Empowering Lives.</em>
+                    </div>
                 </div>
 
                 <div id="nav-div">
-                    <nav>
-                        <ul id="nav-ul">
-                             <li onclick="hideSidebar( )"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                            <li id="li" class="current"><a href="./home.html">Home</a></li> 
-                            <li id="li"><a href="./about.html">Who We Are</a></li>
-                            <li id="li"><a href="./services.html">Our Services</a></li>
-                            <li id="li"><a href="./team.html">Our Team</a></li>
-                            <li id="li"><a href="./clients.html">Clients we serve</a></li>
-                            <li id="li"><a href="./bookings.html">Appointment & Bookings</a></li>
-                            <li id="li"><a href="./questions.html">Frequently Asked Questions (FAQs)</a></li>
-                            <li id="li"><a href="./contact.html">Get in Touch</a></li>
+                    <nav class="nav-bar">
+
+                        <!-- DESKTOP MENU -->
+                        <ul class="nav-links">
+                            <li class="current"><a class="hideOnMobile" href="./home.html">Home</a></li>
+                            <li><a class="hideOnMobile" href="./about.html">Who We Are</a></li>
+                            <li><a class="hideOnMobile" href="./services.html">Our Services</a></li>
+                            <li><a class="hideOnMobile" href="./team.html">Our Team</a></li>
+                            <li><a class="hideOnMobile" href="./clients.html">Clients we serve</a></li>
+                            <li><a class="hideOnMobile" href="./bookings.html">Appointment & Bookings</a></li>
+                            <li><a class="hideOnMobile" href="./questions.html">FAQs</a></li>
+                            <li><a class="hideOnMobile" href="./contact.html">Get in Touch</a></li>
                         </ul>
 
-                         <ul>
-                             <li id="li" class="current"><a class="hideOnMobile" href="./home.html">Home</a></li> 
-                            <li id="li"><a class="hideOnMobile" href="./about.html">Who We Are</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./services.html">Our Services</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./team.html">Our Team</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./clients.html">Clients we serve</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./bookings.html">Appointment & Bookings</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./questions.html">Frequently Asked Questions (FAQs)</a></li>
-                            <li id="li"><a class="hideOnMobile" href="./contact.html">Get in Touch</a></li>
-                            <li onclick="showSidebar( )" class="menu-botton"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="60px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-                        </ul>
+                        <!-- MENU BUTTON -->
+                        <button class="menu-botton" onclick="showSidebar()" aria-label="Open Menu">
+                            ☰
+                        </button>
                     </nav>
+
+                    <!-- SIDEBAR MENU -->
+                     <ul id="nav-ul">
+                        <li onclick="hideSidebar()">✕</li>
+                        <li class="current"><a href="./home.html">Home</a></li>
+                        <li><a href="./about.html">Who We Are</a></li>
+                        <li><a href="./services.html">Our Services</a></li>
+                        <li><a href="./team.html">Our Team</a></li>
+                        <li><a href="./clients.html">Clients we serve</a></li>
+                        <li><a href="./bookings.html">Appointment & Bookings</a></li>
+                        <li><a href="./questions.html">FAQs</a></li>
+                        <li><a href="./contact.html">Get in Touch</a></li>
+                    </ul>
+
                 </div>
+
             </div>
         </section>
        
@@ -57,7 +69,7 @@
                             <!--Headline-->
                         <h1> Professional Psychological Care for Children, Adolescents, and Adults</h1>
                         <!--Sub-headline-->
-                        <p id="sub-headline">At Mindwell Psychological Services, we provide evidence-based psychological and behavioural interventions tailored to meet the unique needs of every individual.</p>
+                        <p id="sub-headline">At MINDWELL PSYCHOLOGICAL & WELLNESS SERVICES, we provide evidence-based psychological and behavioural interventions tailored to meet the unique needs of every individual.</p>
 
                         <!--Call to Action Button-->
                         <h2>Take the First Step Toward Mental Wellness</h2>
@@ -65,8 +77,8 @@
                         <a href="./contact.html"><button id="hero-button">Contact Us</button></a>
 
                         <!--Brief Introduction-->
-                        <h3>Welcome to Mindwell Psychological Services</h3>
-                        <p>Mindwell Psychological Services is a professional mental health and behavioural intervention centre committed to promoting psychological well-being, improving functioning, and enhancing quality of life. We provide compassionate, ethical, and evidence-based services for children, adolescents, and adults in a safe and supportive environment.</p>
+                        <h3>Welcome to MINDWELL PSYCHOLOGICAL & WELLNESS SERVICES</h3>
+                        <p>MINDWELL PSYCHOLOGICAL & WELLNESS SERVICES is a professional mental health and behavioural intervention centre committed to promoting psychological well-being, improving functioning, and enhancing quality of life. We provide compassionate, ethical, and evidence-based services for children, adolescents, and adults in a safe and supportive environment.</p>
                     </article>
 
                     <article>
@@ -86,7 +98,7 @@
                      
                     <article>
                             <!--Why Choose Us-->
-                        <h3>Why Choose Mindwell Psychological Services</h3>
+                        <h3>Why Choose MINDWELL PSYCHOLOGICAL & WELLNESS SERVICES</h3>
                             <ul id="hero-ul">
                                 <li>Evidence-based and client-centred interventions</li>
                                 <li>Qualified and experienced professionals</li>
@@ -120,10 +132,10 @@
                 </div> 
 
                 <div id="footer-info">
-                    <p>Mindwell Psychological Services &copy; 2025. All rights reserved. Privacy Policy | Terms of Service</p> 
+                    <p>MINDWELL PSYCHOLOGICAL & WELLNESS SERVICES &copy; 2026. All rights reserved. Privacy Policy | Terms of Service</p> 
                     <ul id="footer-ul">
                         <li>Phone: 08183002172</li>
-                        <li>Email:mindwell@gmail.com</li>
+                        <li>Email:Mindwpsych@gmail.com</li>
                     </ul>
                 </div>
 
@@ -150,3 +162,6 @@
     <script src="./script.js"></script>
 </body>
 </html>
+
+
+
